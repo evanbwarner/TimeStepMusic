@@ -67,7 +67,7 @@ GAN training takes a long time, and this is no exception. Interesting results ca
 
 How to use
 
-Code is located in the python folder. In order to train the models, firstpick appropriate file names and hyperparameters in the header of the file run.py. No other files need to be modified. Open an interactive python environment such as IDLE or a jupyter notebook in this directory, download any necessary packages, and run the following code:
+Code is located in the python folder. Create folders called 'examples' and 'models' in the directory in which 'python' is located. Also download the MAESTRO dataset v.3.0.0 at https://magenta.tensorflow.org/datasets/maestro#v300, and unzip to the same directory. In order to train the models, first pick appropriate file names and hyperparameters in the header of the file run.py. No other files need to be modified. Open an interactive python environment such as IDLE or a jupyter notebook in this directory, download any necessary packages, and run the following code:
 
 import run
 events, annotation, metadata = run.ReadMIDI()
